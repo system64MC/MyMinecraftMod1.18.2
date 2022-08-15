@@ -16,8 +16,8 @@ public class SysItems {
     public static final RegistryObject<Item> TEST = ITEMS.register("test",
             () -> new Item(new Item.Properties().tab(SysCreativeTab.SYS_TAB)));
 
-    public static final RegistryObject<Item> SERAPH = ITEMS.register("seraph_block", () -> new SeraphBlockItem(SysBlocks.SERAPH_BLOCK.get(), new Item.Properties().tab(SysCreativeTab.SYS_TAB)));
-
+    //public static final RegistryObject<Item> SERAPH = ITEMS.register("seraph_block", () -> new SeraphBlockItem(SysBlocks.SERAPH_BLOCK.get(), new Item.Properties().tab(SysCreativeTab.SYS_TAB)));
+    public static final RegistryObject<Item> SERAPH = SysBlocks.fromBlock(SysBlocks.SERAPH_BLOCK, new Item.Properties().tab(SysCreativeTab.SYS_TAB));
     // public static final RegistryObject<Item>
 
     public static void register(IEventBus eventBus)
