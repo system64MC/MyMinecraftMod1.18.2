@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sys64:double_cobble"
+    }
+  ],
+  "result": {
+    "item": "sys64:compressed_cobble",
+    "count": 9
+  }
+}

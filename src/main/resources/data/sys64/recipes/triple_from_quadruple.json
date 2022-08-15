@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sys64:quadruple_cobble"
+    }
+  ],
+  "result": {
+    "item": "sys64:triple_cobble",
+    "count": 9
+  }
+}

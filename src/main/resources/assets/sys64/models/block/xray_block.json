@@ -1,0 +1,6 @@
+{
+  "parent": "sys64:block/xall",
+  "textures": {
+    "all": "sys64:block/xray_block"
+  }
+}

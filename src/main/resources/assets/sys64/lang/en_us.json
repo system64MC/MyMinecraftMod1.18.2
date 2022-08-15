@@ -1,0 +1,24 @@
+{
+  "item.sys64.test": "Test",
+
+  "block.sys64.xray_block": "XRay Block",
+  "block.sys64.compressed_cobble": "Compressed Cobblestone",
+  "block.sys64.double_cobble": "Double Compressed Cobblestone",
+  "block.sys64.triple_cobble": "Triple Compressed Cobblestone",
+  "block.sys64.quadruple_cobble": "Quadruple Compressed Cobblestone",
+  "block.sys64.quintuple_cobble": "Quintuple Compressed Cobblestone",
+  "block.sys64.sextuple_cobble": "Sextuple Compressed Cobblestone",
+  "block.sys64.septuple_cobble": "Septuple Compressed Cobblestone",
+  "block.sys64.octuple_cobble": "Octuple Compressed Cobblestone",
+
+  "itemGroup.system64tab": "System64",
+
+  "tooltip.sys64.block.compressed_cobble": "9 Cobblestones",
+  "tooltip.sys64.block.double_cobble": "81 Cobblestones",
+  "tooltip.sys64.block.triple_cobble": "729 Cobblestones",
+  "tooltip.sys64.block.quadruple_cobble": "6561 Cobblestones",
+  "tooltip.sys64.block.quintuple_cobble": "59,049 Cobblestones",
+  "tooltip.sys64.block.sextuple_cobble": "531,441 Cobblestones",
+  "tooltip.sys64.block.septuple_cobble": "4,782,969 Cobblestones",
+  "tooltip.sys64.block.octuple_cobble": "43,046,721 Cobblestones"
+}

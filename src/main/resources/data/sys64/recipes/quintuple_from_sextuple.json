@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sys64:sextuple_cobble"
+    }
+  ],
+  "result": {
+    "item": "sys64:quintuple_cobble",
+    "count": 9
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "sys64:block/triple_cobble" }
+  }
+}
