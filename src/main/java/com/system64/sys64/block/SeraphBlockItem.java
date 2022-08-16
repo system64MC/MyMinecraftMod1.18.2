@@ -34,18 +34,13 @@ public class SeraphBlockItem extends BlockItem {
         System.out.println(player.getLookAngle().x + " " + player.getLookAngle().y + " " + player.getLookAngle().z);
 
         BlockPos pos = new BlockPos(x, y, z);
-        LOGGER.info("Block placed!");
 
         if(level.getBlockState(pos).isAir())
         {
-            LOGGER.info("Block AIR!");
             level.setBlockAndUpdate(pos, SysBlocks.SERAPH_BLOCK.get().defaultBlockState());
             if(!player.isCreative())
                 player.getItemInHand(hand).shrink(1);
         }
-
-        LOGGER.info("Bloc placed at : " + x + ", " + y + ", " + z);
-
         return InteractionResultHolder.pass(player.getItemInHand(hand));
     }
 }

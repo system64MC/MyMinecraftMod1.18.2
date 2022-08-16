@@ -39,8 +39,10 @@ public class SysBlocks {
     public static final RegistryObject<Block> SEPTUPLE_COBBLE = registerBlock("septuple_cobble", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(9f).requiresCorrectToolForDrops()), SysCreativeTab.SYS_TAB, "tooltip.sys64.block.septuple_cobble");
     public static final RegistryObject<Block> OCTUPLE_COBBLE = registerBlock("octuple_cobble", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(9f).requiresCorrectToolForDrops()), SysCreativeTab.SYS_TAB, "tooltip.sys64.block.octuple_cobble");
 
-    // public static final RegistryObject<Block> SERAPH_BLOCK = registerBlock("seraph_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1f)), null);
-    public static final RegistryObject<Block> SERAPH_BLOCK = BLOCKS.register("seraph_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1f)));
+    // public static final RegistryObject<Block> SERAPH_BLOCK = new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1f));
+    public static final RegistryObject<Block> SERAPH_BLOCK = BLOCKS.register("seraph_block", () -> new SeraphBlock(BlockBehaviour.Properties.of(Material.STONE).strength(0f)));
+
+    // public static final Block SERAPH_BLOCK = new Block(Prop)
 
 
     public static void init()
