@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "sys64:compressed_cobble",
+    "sys64:double_cobble",
+    "sys64:triple_cobble",
+    "sys64:quadruple_cobble",
+    "sys64:quintuple_cobble",
+    "sys64:sextuple_cobble",
+    "sys64:septuple_cobble",
+    "sys64:octuple_cobble",
+    "sys64:xray_block"
+  ]
+}
